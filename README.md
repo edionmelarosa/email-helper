@@ -3,9 +3,6 @@ Meteor package helper for sending emails.
 ###Installation:
 
 * Pre-install [email package](https://atmospherejs.com/meteor/email)
-```
-meteor add email
-```
 
 Then, install the package
 ```
