@@ -1,10 +1,9 @@
 Meteor package helper for sending emails.
 
+* This package requires [email package](https://atmospherejs.com/meteor/email)
+
 ###Installation:
 
-* Pre-install [email package](https://atmospherejs.com/meteor/email)
-
-Then, install the package
 ```
 meteor add edionme:email-helper
 ```
