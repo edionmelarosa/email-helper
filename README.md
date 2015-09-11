@@ -3,11 +3,14 @@ Meteor package helper for sending emails.
 ###Installation:
 
 * Pre-install [email package](https://atmospherejs.com/meteor/email)
-    meteor add email
-
+```
+meteor add email
+```
 
 Then, install the package
-    meteor add edionme:email-helper
+```
+meteor add edionme:email-helper
+```
 
 ###Setup
 
@@ -23,7 +26,9 @@ This package read **smtp** configurations from your settings file. You need to a
 }
 ```
 Then, run your app:
-    meteor run --settings /pathtoyoursettingsfile/
+```
+meteor run --settings /pathtoyoursettingsfile/
+```
 
 ###Usage
 Call Meteor.EmailHelper.sendEmail() to send email. e.g
