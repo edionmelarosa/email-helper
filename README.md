@@ -23,7 +23,7 @@ This package read **smtp** configurations from your settings file. You need to a
 ```
 Then, run your app:
 ```
-meteor run --settings /pathtoyoursettingsfile/
+meteor run --settings /path/to/yoursettingsfile/
 ```
 
 ###Usage
