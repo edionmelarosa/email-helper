@@ -37,7 +37,11 @@ var params = {
   subject: "subject",
   text: "emailcontent"
 };
-Meteor.EmailHelper.sendEmail(params);
+Meteor.EmailHelper.sendEmail(params,function(res){
+  if (!res.success){
+    // Error sending email
+  }
+  });
 ```
 
 Check [Meteor email docs for more info](http://docs.meteor.com/#/full/email_send)

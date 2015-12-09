@@ -4,6 +4,7 @@ Meteor.startup(function () {
       return false;
   }
   var _base = Meteor.settings.smtp;
+  
   check([_base.username, _base.password, _base.host], [String]);
   check(_base.port, Number);
 

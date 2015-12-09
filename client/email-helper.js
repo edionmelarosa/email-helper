@@ -1,5 +1,8 @@
 Meteor.EmailHelper = {
-  sendEmail: function(params){
-    Meteor.call('sendEmail', params);
+  sendEmail: function(params, cb){
+    Meteor.call('sendEmail', params, function(err, res){
+        if (err)
+          cb({success: false, res: err}); return false;
+    });
   }
 }

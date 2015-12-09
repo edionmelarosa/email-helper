@@ -5,6 +5,6 @@ Meteor.methods({
 
     this.unblock();
 
-    Email.send(params);
+    return Email.send(params);
   }
 });
